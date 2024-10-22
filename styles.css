@@ -1,0 +1,154 @@
+body {
+    font-family: "roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.header-container, .footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    gap: 200px;
+}
+
+/* header */
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* Hero */
+
+.hero-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px;
+    padding-block: 80px;
+    gap: 50px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#secundary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+.hero-container > img {
+    width: 400px;
+    height: auto;
+}
+
+/* Artworks info */
+
+#information-text {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 80px;
+}
+
+.artworks {
+    width: 160px;
+    height: auto;
+}
+
+img {
+    width: 160px;
+    height: auto;
+}
+
+.artworks > p {
+    color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* quote */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #e5e7eb;
+}
+
+q {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 500px;
+}
+
+.quote-container > p {
+    color: #1f2937;
+    font-weight: 900;
+    text-align: right;
+    width: 500px;
+}
+
+
+
+/* footer */
+
+.footer {
+    padding: 20px;
+}
+
+/* Styles all the links */
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+  }
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
