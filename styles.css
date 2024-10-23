@@ -4,8 +4,6 @@ body {
     padding: 0px;
     font-size: 18px;
     color: #e5e7eb;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .header-container, .footer {
@@ -17,6 +15,8 @@ body {
     margin: 0px;
     gap: 200px;
 }
+
+
 
 /* header */
 
@@ -31,7 +31,6 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     padding: 10px;
     padding-block: 80px;
     gap: 50px;
@@ -54,7 +53,7 @@ body {
     color: #e5e7eb;
 }
 
-button {
+.hero-text > button {
     background-color: #3882f6;
     color: #f9faf8;
     width: 100px;
@@ -67,6 +66,7 @@ button {
 .hero-container > img {
     width: 400px;
     height: auto;
+    object-fit: cover;
 }
 
 /* Artworks info */
@@ -129,7 +129,45 @@ q {
     width: 500px;
 }
 
+/* sign up */
 
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.sign-up-info {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 40px 80px;
+    margin: 40px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.sign-up-info > button {
+    background-color: #3882F6;
+    border: solid white 1px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px;
+    padding: 6px;
+    width: 100px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-text > div {
+    font-size: 24px;
+    font-weight: 900;
+}
 
 /* footer */
 
@@ -137,7 +175,9 @@ q {
     padding: 20px;
 }
 
-/* Styles all the links */
+
+
+/* Styles the links */
 
 ul {
     list-style-type: none;
